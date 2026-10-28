@@ -1,0 +1,43 @@
+{
+  "name": "@littlescrew/kv-hostlink",
+  "version": "0.1.0",
+  "description": "KEYENCE KV PLC Host Link (upper link) client over TCP, no dependencies",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "keywords": [
+    "keyence",
+    "kv",
+    "plc",
+    "hostlink",
+    "upper-link",
+    "kv-nano",
+    "scada",
+    "fuxa"
+  ],
+  "author": "EncoreMelody",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EncoreMelody/kv-hostlink.git"
+  },
+  "homepage": "https://github.com/EncoreMelody/kv-hostlink#readme",
+  "bugs": {
+    "url": "https://github.com/EncoreMelody/kv-hostlink/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
